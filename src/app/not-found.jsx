@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Home } from "lucide-react";
-
+export const metadata = {
+  title: "KeenKeeper | Not Found",
+};
 export default function NotFound() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-black text-white relative overflow-hidden">
