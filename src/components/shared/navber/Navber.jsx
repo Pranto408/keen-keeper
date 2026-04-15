@@ -6,7 +6,7 @@ import Link from "next/link";
 const Navber = () => {
   const pathname = usePathname();
   return (
-    <div className="bg-base-100 shadow-sm">
+    <div className="z-1 bg-base-100 shadow-sm border-b-2 border-gray-200 sticky top-0">
       <div className="w-11/12 mx-auto navbar  ">
         <div className="flex-1">
           <a href={"/"} className=" text-[#1F2937] font-extrabold text-3xl">

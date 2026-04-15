@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim Uddin",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "rahim.uddin@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["school friend"],
+    "bio": "School best friend. We used to play cricket every evening and still talk about old match memories.",
+    "goal": 14,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "nusrat.jahan@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["university", "group"],
+    "bio": "Met during university group projects. She helps a lot with coding assignments and exam prep.",
+    "goal": 10,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/65.jpg",
+    "email": "tanvir.hasan@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["coding", "startup"],
+    "bio": "We built small web projects together and talk about startup ideas late at night.",
+    "goal": 14,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 4,
+    "name": "Sadia Islam",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "sadia.islam@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["word", "travel"],
+    "bio": "Travel companion from college days. We explored Cox’s Bazar and still plan trips together.",
+    "goal": 14,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 5,
+    "name": "Mehedi Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/21.jpg",
+    "email": "mehedi.hasan@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["gym", "fitness"],
+    "bio": "Gym partner who motivates me to stay consistent and track daily workouts.",
+    "goal": 7,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 6,
+    "name": "Ayesha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "ayesha.rahman@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["office"],
+    "bio": "Colleague from internship days. We still meet for coffee and discuss career plans.",
+    "goal": 10,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 7,
+    "name": "Shakib Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "email": "shakib.ahmed@gmail.com",
+    "days_since_contact": 14,
+    "status": "overdue",
+    "tags": ["football"],
+    "bio": "Football teammate. We played together in university tournaments and weekend matches.",
+    "goal": 14,
+    "next_due_date": "2025-07-26"
+  },
+  {
+    "id": 8,
+    "name": "Fariha Karim",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "fariha.karim@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["family"],
+    "bio": "Creative designer friend who inspires me with UI/UX ideas and design trends.",
+    "goal": 10,
+    "next_due_date": "2025-07-17"
+  }
+]
