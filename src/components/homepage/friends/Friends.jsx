@@ -3,7 +3,10 @@ import FriendCard from '../friend-card/FriendCard';
 
 const Friends = async () => {
     const res = await fetch(
-      "https://keen-keeper-52b9-git-main-prantodatta408-9444s-projects.vercel.app/friends.json",
+      "https://keen-keeper-bice.vercel.app/friends.json",
+      {
+        cache: "no-store",
+      },
     );
     const friends = await res.json();
     console.log(friends);
