@@ -1,8 +1,6 @@
 "use client";
 import { useTimeline } from "@/context/TimelineContext";
 import { Phone, MessageSquare, Video } from "lucide-react";
-// import { useRouter } from "next/navigation";
-
 import { toast } from "react-toastify";
 
 const btnClass =

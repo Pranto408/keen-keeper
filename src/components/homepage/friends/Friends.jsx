@@ -9,7 +9,7 @@ const Friends = async () => {
       },
     );
     const friends = await res.json();
-    console.log(friends);
+
     return (
       <div className="w-11/12 mx-auto">
         <h2 className="py-5 text-2xl font-semibold text-[#1F2937]">

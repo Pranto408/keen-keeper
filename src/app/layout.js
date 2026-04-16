@@ -33,9 +33,12 @@ export default function RootLayout({ children }) {
         style={{ fontFamily: "var(--font-geist-sans)" }}
         className="min-h-full flex flex-col"
       >
-        <Navber />
-        <TimelineProvider>{children}</TimelineProvider>
-        <ToastContainer position="top-right" autoClose={2000} />
+        <TimelineProvider>
+          <Navber />
+          {children}
+        </TimelineProvider>
+
+        <ToastContainer position="top-center" autoClose={1000} />
         <Footer />
       </body>
     </html>

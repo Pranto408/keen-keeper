@@ -11,6 +11,10 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 
+export const metadata = {
+  title: "KeenKeeper | Friend",
+};
+
 const FriendDetails = async ({ params }) => {
   const { id } = await params;
 
@@ -43,6 +47,7 @@ const FriendDetails = async ({ params }) => {
                   src={friend.picture}
                   alt={friend.name}
                   className="object-cover"
+                  sizes="128px"
                 />
               </div>
             </div>
