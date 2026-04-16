@@ -67,7 +67,7 @@ const TimelineClient = () => {
       {/* Empty State */}
       {filtered.length === 0 ? (
         <div className="flex justify-center items-center h-[60vh] text-slate-300 text-5xl font-bold">
-          No activity
+          No Interactions
         </div>
       ) : (
         <div className="flex flex-col gap-4">

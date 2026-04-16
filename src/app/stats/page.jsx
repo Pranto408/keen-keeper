@@ -1,8 +1,12 @@
+import StatsClient from "@/components/stats/StatsClient";
+
+
 export const metadata = {
   title: "KeenKeeper | Stats",
 };
-const Stats = () => {
-  return <div>Stats</div>;
+
+const StatsPage = () => {
+  return <StatsClient />;
 };
 
-export default Stats;
+export default StatsPage;

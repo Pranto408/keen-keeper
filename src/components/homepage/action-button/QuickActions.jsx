@@ -10,7 +10,7 @@ const QuickActions = ({ friend }) => {
       const { addEntry } = useTimeline();
 
     const handleClick = (type) => {
-        toast(`${type} to ${friend.name}`);
+        toast.success(`${type} with ${friend.name} successful`);
             addEntry(friend, type);
 
   };
