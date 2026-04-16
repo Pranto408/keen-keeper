@@ -24,7 +24,7 @@ const TimelineClient = () => {
     <div className="w-11/12 md:w-8/12 mx-auto mt-10 p-6">
       <h1 className="text-2xl font-bold text-slate-800 mb-6">Timeline</h1>
 
-      {/* Dropdown */}
+
       <div className="relative w-52 mb-8">
         <button
           onClick={() => setOpen((prev) => !prev)}
@@ -64,7 +64,7 @@ const TimelineClient = () => {
         )}
       </div>
 
-      {/* Empty State */}
+
       {filtered.length === 0 ? (
         <div className="flex justify-center items-center h-[60vh] text-slate-300 text-5xl font-bold">
           No Interactions

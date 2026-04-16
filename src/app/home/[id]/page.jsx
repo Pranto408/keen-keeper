@@ -96,7 +96,7 @@ const FriendDetails = async ({ params }) => {
 
         {/* Main Content Area */}
         <div className="md:col-span-2 flex flex-col gap-6">
-          {/* Top Stats Stats */}
+          
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="card bg-base-100 shadow-sm border border-slate-100 p-6 text-center">
               <span className="text-4xl font-bold text-slate-700">

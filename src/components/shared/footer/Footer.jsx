@@ -7,16 +7,16 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#1a3c34] text-white pt-12 pb-6 mt-10 px-6">
+    <footer className="bg-[#1a3c34] text-white pt-12 pb-6  px-6">
       <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
-        {/* Brand Section */}
+
         <h2 className="text-5xl font-bold mb-4 tracking-tight">KeenKeeper</h2>
         <p className="text-gray-300 mb-8">
           Your personal shelf of meaningful connections. Browse, tend, and
           nurture the relationships that matter most.
         </p>
 
-        {/* Social Links */}
+
         <div className="mb-12">
           <h3 className="text-lg font-medium mb-4">Social Links</h3>
           <div className="flex gap-4">
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+
         <div className="w-full border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 gap-4">
           <p>© {currentYear} KeenKeeper. All rights reserved.</p>
 

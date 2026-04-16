@@ -11,7 +11,7 @@ const FriendsDashboard = () => {
 
   return (
     <div className=" py-8 ">
-      {/* Hero Section */}
+
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold text-slate-800 mb-4">
           Friends to keep close in your life
@@ -26,7 +26,7 @@ const FriendsDashboard = () => {
         </button>
       </header>
 
-      {/* Stats Grid */}
+  
       <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 border-b border-gray-200 pb-10">
         {stats.map((stat, index) => (
           <div

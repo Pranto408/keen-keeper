@@ -27,5 +27,4 @@ export const TimelineProvider = ({ children }) => {
   );
 };
 
-// Custom hook
 export const useTimeline = () => useContext(TimelineContext);

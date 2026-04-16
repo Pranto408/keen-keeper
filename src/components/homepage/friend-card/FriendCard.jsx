@@ -12,7 +12,7 @@ const FriendCard = ({ friend }) => {
     return (
       <Link href={`/home/${friend.id}`}>
         <div className="flex flex-col items-center p-8 bg-white shadow-sm rounded-2xl w-full border border-gray-100 hover:shadow-lg">
-          {/* Profile Image */}
+
           <div className="relative w-32 h-32 mb-6">
             <Image
               src={friend.picture}
@@ -23,7 +23,7 @@ const FriendCard = ({ friend }) => {
             />
           </div>
 
-          {/* Identity Info */}
+
           <div className="text-center mb-6">
             <h2 className="text-xl font-bold text-slate-800 leading-tight">
               {friend.name}
@@ -33,7 +33,7 @@ const FriendCard = ({ friend }) => {
             </p>
           </div>
 
-          {/* Tags Section */}
+
           <div className="flex flex-wrap justify-center gap-2 mb-6">
             {friend.tags.map((tag, index) => (
               <span
@@ -45,7 +45,6 @@ const FriendCard = ({ friend }) => {
             ))}
           </div>
 
-          {/* Dynamic Status Badge */}
           <div className="w-full text-center">
             <span
               className={`py-1 px-2 rounded-full  font-medium capitalize ${statusStyles[friend.status] || "bg-gray-400"}`}
