@@ -21,5 +21,6 @@ KeenKeeper is a smart relationship management web application that helps users t
 | Tailwind CSS + DaisyUI                | Styling, responsiveness, and reusable UI components     |
 | Recharts                              | Data visualization and chart creation                   |
 
-    ---
+
+
    “Made with ❤️ by Pranto Dutta”
