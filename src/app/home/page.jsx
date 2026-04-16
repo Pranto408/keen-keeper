@@ -3,8 +3,9 @@ import Friends from "@/components/homepage/friends/Friends";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "KeenKeeper | Home"
+  title: "KeenKeeper | Home",
 };
+
 const HomePage = () => {
   return (
     <>

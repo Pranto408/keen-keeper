@@ -7,7 +7,7 @@ const Navber = () => {
   const pathname = usePathname();
   return (
     <div className="z-1 bg-base-100 shadow-sm border-b-2 border-gray-200 sticky top-0">
-      <div className="w-11/12 mx-auto navbar  ">
+      <div className="w-11/12 mx-auto navbar flex-col space-y-3 sm:flex-row sm:space-y-0">
         <div className="flex-1">
           <a href={"/"} className=" text-[#1F2937] font-extrabold text-3xl">
             Keen<span className="text-[#244D3F] font-semibold">Keeper</span>

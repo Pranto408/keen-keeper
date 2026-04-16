@@ -16,7 +16,7 @@ const Friends = async () => {
           Your Friends
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-5 pb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 pb-10">
           {friends.map((friend) => (
             <div key={friend.id} className="">
               <FriendCard friend={friend} />

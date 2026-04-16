@@ -27,7 +27,7 @@ const FriendsDashboard = () => {
       </header>
 
       {/* Stats Grid */}
-      <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-4 gap-4 border-b border-gray-200 pb-10">
+      <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 border-b border-gray-200 pb-10">
         {stats.map((stat, index) => (
           <div
             key={index}

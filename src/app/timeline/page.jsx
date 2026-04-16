@@ -1,8 +1,12 @@
+import TimelineClient from "@/components/timeline/Timeline";
+
+
 export const metadata = {
   title: "KeenKeeper | Timeline",
 };
-const Timeline = () => {
-  return <div>Timeline</div>;
+
+const TimelinePage = () => {
+  return <TimelineClient />;
 };
 
-export default Timeline;
+export default TimelinePage;
