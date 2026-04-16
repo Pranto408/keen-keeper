@@ -22,7 +22,7 @@ const TimelineClient = () => {
 
   return (
     <div className="w-11/12 md:w-8/12 mx-auto mt-10 p-6">
-      <h1 className="text-2xl font-bold text-slate-800 mb-6">Timeline</h1>
+      <h1 className="text-3xl font-bold text-slate-800 mb-6">Timeline</h1>
 
 
       <div className="relative w-52 mb-8">

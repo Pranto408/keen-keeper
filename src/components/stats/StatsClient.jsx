@@ -28,7 +28,9 @@ const StatsClient = () => {
 
   return (
     <div className="w-11/12 md:w-8/12 mx-auto p-5 mt-6 mb-15">
-      <h1 className="text-2xl font-bold text-slate-800 mb-4">Stats</h1>
+      <h1 className="text-3xl font-bold text-slate-800 mb-4">
+        Friendship Analytics
+      </h1>
       {timeline.length === 0 ? (
         <div className="flex justify-center items-center h-[60vh] text-slate-300 text-5xl font-bold">
           No Interactions
