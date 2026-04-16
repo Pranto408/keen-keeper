@@ -14,12 +14,13 @@ import Image from "next/image";
 const FriendDetails = async ({ params }) => {
   const { id } = await params;
 
+
   const res = await fetch("https://keen-keeper-bice.vercel.app/friends.json", {
-    cache: "no-store",
+    next: { revalidate: 60 },
   });
 
   const friends = await res.json();
-  const friend = friends.find((f) => f.id == id);
+  const friend = friends.find((f) => String(f.id) === String(id));
 
   if (!friend) {
     return (
@@ -36,12 +37,12 @@ const FriendDetails = async ({ params }) => {
         <div className="flex flex-col gap-4">
           <div className="card bg-base-100 shadow-sm border border-slate-100 p-8 items-center text-center">
             <div className="avatar mb-4">
-              <div className="w-24 rounded-full ring ring-slate-100 ring-offset-base-100 ring-offset-2">
+              <div className="w-24 h-24 relative rounded-full overflow-hidden ring ring-slate-100 ring-offset-base-100 ring-offset-2">
                 <Image
                   fill
                   src={friend.picture}
                   alt={friend.name}
-                  className="rounded-full object-cover border-4 border-gray-50"
+                  className="object-cover"
                 />
               </div>
             </div>
@@ -108,11 +109,7 @@ const FriendDetails = async ({ params }) => {
             </div>
             <div className="card bg-base-100 shadow-sm border border-slate-100 p-6 text-center">
               <span className="text-2xl font-bold text-emerald-800">
-                {new Date(friend.next_due_date).toLocaleDateString("en-US", {
-                  month: "short",
-                  day: "numeric",
-                  year: "numeric",
-                })}
+                {friend.next_due_date}
               </span>
               <span className="text-slate-400 text-sm mt-1">Next Due</span>
             </div>
@@ -145,6 +142,6 @@ const FriendDetails = async ({ params }) => {
       </div>
     </div>
   );
-};
+};;;
 
 export default FriendDetails;

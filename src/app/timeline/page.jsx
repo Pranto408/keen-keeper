@@ -6,7 +6,9 @@ export const metadata = {
 };
 
 const TimelinePage = () => {
-  return <TimelineClient />;
+  return (
+    <TimelineClient/>
+  );
 };
 
 export default TimelinePage;
