@@ -2,16 +2,8 @@ import { Plus } from "lucide-react";
 import React from "react";
 
 const FriendsDashboard = () => {
-  const stats = [
-    { label: "Total Friends", value: 10 },
-    { label: "On Track", value: 3 },
-    { label: "Need Attention", value: 6 },
-    { label: "Interactions This Month", value: 12 },
-  ];
-
   return (
     <div className=" py-8 ">
-
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold text-slate-800 mb-4">
           Friends to keep close in your life
@@ -26,21 +18,31 @@ const FriendsDashboard = () => {
         </button>
       </header>
 
-  
       <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 border-b border-gray-200 pb-10">
-        {stats.map((stat, index) => (
-          <div
-            key={index}
-            className="card bg-white shadow-sm border border-slate-100 flex flex-col items-center justify-center p-10 transition-all hover:shadow-md"
-          >
-            <div className="text-4xl font-bold text-slate-800 mb-2">
-              {stat.value}
-            </div>
-            <div className="text-sm font-medium text-slate-400 text-center">
-              {stat.label}
-            </div>
+        <div className="card bg-white shadow-sm border border-slate-100 flex flex-col items-center justify-center p-10 transition-all hover:shadow-md">
+          <div className="text-4xl font-bold text-slate-800 mb-2">8</div>
+          <div className="text-sm font-medium text-slate-400 text-center">
+            Total Friends
           </div>
-        ))}
+        </div>
+        <div className="card bg-white shadow-sm border border-slate-100 flex flex-col items-center justify-center p-10 transition-all hover:shadow-md">
+          <div className="text-4xl font-bold text-slate-800 mb-2">3</div>
+          <div className="text-sm font-medium text-slate-400 text-center">
+            On Track
+          </div>
+        </div>
+        <div className="card bg-white shadow-sm border border-slate-100 flex flex-col items-center justify-center p-10 transition-all hover:shadow-md">
+          <div className="text-4xl font-bold text-slate-800 mb-2">5</div>
+          <div className="text-sm font-medium text-slate-400 text-center">
+            Need Attention
+          </div>
+        </div>
+        <div className="card bg-white shadow-sm border border-slate-100 flex flex-col items-center justify-center p-10 transition-all hover:shadow-md">
+          <div className="text-4xl font-bold text-slate-800 mb-2">12</div>
+          <div className="text-sm font-medium text-slate-400 text-center">
+            Interactions This Month
+          </div>
+        </div>
       </div>
     </div>
   );
